@@ -1,5 +1,5 @@
 {
-  "name": "zookeepr",
+  "name": "main",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,18 +7,14 @@
     "test": "jest",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nancywa1/zookeepr.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nancywa1/zookeepr/issues"
-  },
-  "homepage": "https://github.com/nancywa1/zookeepr#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "test": "^0.6.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
